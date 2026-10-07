@@ -54,12 +54,12 @@ window.addEventListener("load", (event) => {
    if (window.sourcePath) {
     items.push({
      id: 'edit',
-     title: 'Edit current tree in Visual Studio Code',
+     title: 'Edit current tree in Zed',
      section: 'Commands',
      hotkey: 'cmd+e',
      icon: editIcon,
      handler: () => {
-      window.location.href = `vscode://file/${window.sourcePath}`
+      window.location.href = `zed://file/${window.sourcePath}`
      }
     })
    }

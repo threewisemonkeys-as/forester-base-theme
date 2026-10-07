@@ -206,7 +206,7 @@
   </xsl:template>
 
   <xsl:template match="f:source-path">
-    <a class="edit-button" href="{concat('vscode://file', .)}">
+    <a class="edit-button" href="{concat('zed://file', .)}">
       <xsl:text>[edit]</xsl:text>
     </a>
   </xsl:template>
